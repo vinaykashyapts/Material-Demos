@@ -74,38 +74,38 @@
 
 
     <!--<RadioGroup-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_gravity="center"-->
-        <!--android:layout_margin="10dp"-->
-        <!--android:orientation="horizontal">-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:orientation="horizontal">-->
 
-        <!--<RadioButton-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:background="@drawable/radio_button_left_bg"-->
-            <!--android:button="@null"-->
-            <!--android:padding="10dp"-->
-            <!--android:text="Received"-->
-            <!--android:textColor="@drawable/button_text_color" />-->
+    <!--<RadioButton-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/radio_button_left_bg"-->
+    <!--android:button="@null"-->
+    <!--android:padding="10dp"-->
+    <!--android:text="Received"-->
+    <!--android:textColor="@drawable/button_text_color" />-->
 
-        <!--<RadioButton-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:background="@drawable/radio_button_left_bg"-->
-            <!--android:button="@null"-->
-            <!--android:padding="10dp"-->
-            <!--android:text="Realised"-->
-            <!--android:textColor="@drawable/button_text_color" />-->
+    <!--<RadioButton-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/radio_button_left_bg"-->
+    <!--android:button="@null"-->
+    <!--android:padding="10dp"-->
+    <!--android:text="Realised"-->
+    <!--android:textColor="@drawable/button_text_color" />-->
 
-        <!--<RadioButton-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:background="@drawable/radio_button_left_bg"-->
-            <!--android:button="@null"-->
-            <!--android:padding="10dp"-->
-            <!--android:text="Bounced"-->
-            <!--android:textColor="@drawable/button_text_color" />-->
+    <!--<RadioButton-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/radio_button_left_bg"-->
+    <!--android:button="@null"-->
+    <!--android:padding="10dp"-->
+    <!--android:text="Bounced"-->
+    <!--android:textColor="@drawable/button_text_color" />-->
     <!--</RadioGroup>-->
 
 </LinearLayout>
