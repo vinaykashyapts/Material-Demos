@@ -175,6 +175,32 @@
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
+                <!-- CheckBox Styles -->
+                <android.support.v7.widget.CardView
+                    style="@style/CardStyle.Home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="CheckBox Styles" />
+
+                        <CheckBox
+                            android:theme="@style/ComponentTheme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="App Theme" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
                 
             </LinearLayout>
         </RelativeLayout>
