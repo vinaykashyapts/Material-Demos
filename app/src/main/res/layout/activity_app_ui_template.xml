@@ -227,6 +227,34 @@
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
+                <!-- Dropdown spinner Styles -->
+                <android.support.v7.widget.CardView
+                    style="@style/CardStyle.Home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="Dropdown spinner Styles" />
+
+                        <Spinner
+                            android:id="@+id/templateSpinner"
+                            style="@style/Widget.AppCompat.Spinner.Underlined"
+                            android:theme="@style/ComponentTheme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:spinnerMode="dropdown" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
                 
             </LinearLayout>
         </RelativeLayout>
