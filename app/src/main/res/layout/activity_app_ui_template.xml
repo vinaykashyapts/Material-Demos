@@ -280,6 +280,39 @@
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
+                <!-- Progress indicators Styles -->
+                <android.support.v7.widget.CardView
+                    style="@style/CardStyle.Home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="Progress indicators Styles" />
+
+                        <ProgressBar
+                            android:id="@+id/progressBarCircular"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:indeterminate="true" />
+
+                        <ProgressBar
+                            android:id="@+id/progressBarHorizontal"
+                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:indeterminate="true" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
                 
             </LinearLayout>
         </RelativeLayout>
